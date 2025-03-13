@@ -1,0 +1,18 @@
+.form__button {
+  width: 200px;
+  height: 30px;
+
+  font-family: var(--font-family-main);
+  font-weight: bold;
+  color: white;
+
+  background-color: #136ef6;
+  border: none;
+  transition: background-color 0.3s, transform 0.2s; 
+}
+
+.form__button:hover {
+  background-color: #468cf5;
+  transform: scale(110%);
+  transition: background-color 0.7s, transform 0.7s; 
+} 

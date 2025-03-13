@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Конвертер</title>
+</head>
+<body class = "page">
+  <main class = "main">
+    <h1 class = "main__title">Перевод чисел из одной системы счисления в другую</h1>
+    <form class = "form">
+      <div class = "form__container">
+  <!--  исходное число -->
+        <div class = "number__container">
+          <!-- <label for = "form__initial-number"> -->
+          <label>
+            <span class = "span">Исходное число</span>
+          <input id = "input" type = "text" name = "form__initial-number">
+        </label>
+      </div>
+  <!-- контейнер для списков систем счисления -->
+        <div class = "lists-container">
+  <!--  исходная система счисления -->    
+            <label class = "select-container">
+              <span class = "span">Исходная система счисления</span>
+              <select name = "form__initial-list-label" class = "list-item list-item-initial">
+              </select>
+            </label>
+
+  <!--  целевая система счисления -->
+          <label class = "select-container">
+            <span class = "span">Целевая система счисления</span>
+            <select name = "form__purpose-list-label" class = "list-item list-item-purpose">
+            </select>
+        </label>
+        </div>
+  <!-- кнопка конвертирования -->
+        <button class = "form__button" type = "submit">Конвертировать</button>
+        <p class = "form_result"></p>
+      </div>
+    </form> 
+  </main>
+  <script src = "./modiles/script.js"></script>
+  <script src = "./modiles/functions.js"></script>
+</body>
+</html>

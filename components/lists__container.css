@@ -1,0 +1,13 @@
+.lists-container {
+   display: flex;
+   margin-block-end: 20px;
+   margin-block-start: 20px;
+}
+@media (width <= 1005px) {
+   .lists-container {
+     flex-direction: column;
+     align-items: center;
+   }
+ }
+ 
+ 

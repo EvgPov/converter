@@ -1,0 +1,26 @@
+/* Глобальные стили */
+@import url("./global.css");
+
+/* Шрифты */
+@import url("../fonts/fonts.css");
+
+/* main */
+@import url("../components/page.css");
+@import url("../components/main.css");
+@import url("../components/__title.css");
+
+/* components */
+@import url("../components/form.css");
+@import url("../components/form__container.css");
+
+@import url("../components/lists__container.css");
+@import url("../components/number__container.css");
+@import url("../components/list-item.css");
+
+@import url("../components/button.css");
+@import url("../components/input.css");
+@import url("../components/span.css");
+
+@import url("../components/p.css");
+@import url("../components/select_container.css");
+

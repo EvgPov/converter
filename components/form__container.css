@@ -1,0 +1,12 @@
+.form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+
+  background-color: var(--gray-color);
+  box-shadow: 2px 2xp 2xp 2px rgb(133, 132, 132);
+  border-radius: 10px;
+
+  padding: 20px;
+}

@@ -1,0 +1,12 @@
+.list-item {
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+  margin-inline-end: 10px;
+
+  width: var(--width-select-input);
+  height: var(--height-select-input);
+ 
+  box-sizing: border-box;
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-main);
+}

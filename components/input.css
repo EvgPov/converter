@@ -1,0 +1,7 @@
+#input {
+  box-sizing: border-box;
+  border: 1px solid rgb(209, 207, 207);
+  height: var(--height-select-input);
+  width: var(--width-select-input);
+  font-size: var(--font-size-main);
+}
